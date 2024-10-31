@@ -1,0 +1,7 @@
+codigos:
+
+crear archivo requirement.txt con los recursos necesarios.
+pipreqs .
+
+crear archivo requirement.txt con todos los recursos:
+pip install -r requirements.txt
