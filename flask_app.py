@@ -6,7 +6,8 @@ app = Flask(__name__)
 def obtener_valor():
     response = jsonify({'valor': 1999})
     response.headers.add('Access-Control-Allow-Origin', '*')  # Permitir todas las origins
+
     return response
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)  # Iniciar el servidor de desarrollo de Flask
